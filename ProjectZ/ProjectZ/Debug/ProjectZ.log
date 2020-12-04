@@ -1,0 +1,7 @@
+﻿  biblioteki.cpp
+  gra.cpp
+D:\SCHEMAT\NAUKA\Programowanie obiektowe\AnnaDymowskaOKRETY\ProjectZ\ProjectZ\gracz.h(338,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+D:\SCHEMAT\NAUKA\Programowanie obiektowe\AnnaDymowskaOKRETY\ProjectZ\ProjectZ\gracz.h(340,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  plansza.cpp
+  Generowanie kodu...
+  ProjectZ.vcxproj -> D:\SCHEMAT\NAUKA\Programowanie obiektowe\AnnaDymowskaOKRETY\ProjectZ\Debug\ProjectZ.exe

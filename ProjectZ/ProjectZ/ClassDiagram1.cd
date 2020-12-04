@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="gracz">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAAAAAAAAAAAAIAAAAAAAAQABBgAIAACAIAACA=</HashCode>
+      <FileName>gracz.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Glowa" />
+      <Field Name="Notes" />
+      <Field Name="Plansza" />
+      <Field Name="Trafiony" />
+      <Field Name="Zatopiony" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="czlowiek">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAoAAAAAAAAAAA=</HashCode>
+      <FileName>gracz.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="komputer">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAABAgAAAAAAAAAAA=</HashCode>
+      <FileName>gracz.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="plansza">
+    <Position X="5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIAQAAAAQAAAAgAAAAAAEAABABAAAAAAAAAA=</HashCode>
+      <FileName>plansza.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="tabela" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="pole">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>pole.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="zawartosc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="statek">
+    <Position X="11.75" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>SABQAAAAEAAAAAwCAAQAAAAAAAAAAAgMAAAAACAAAAA=</HashCode>
+      <FileName>statek.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="nast" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="gra">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAIAAAQAAAQQAIBIAAAAABIAgQAAAAAA=</HashCode>
+      <FileName>gra.cpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Atakowany" />
+      <Field Name="Atakujacy" />
+      <Field Name="Gracz1" />
+      <Field Name="Gracz2" />
+      <Field Name="NotesG1" />
+      <Field Name="NotesG2" />
+      <Field Name="PlanszaG1" />
+      <Field Name="PlanszaG2" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
